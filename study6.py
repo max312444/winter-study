@@ -1,4 +1,4 @@
-num = 2
+num = 1
 
 try:
     print("1")
@@ -7,7 +7,7 @@ try:
         raise KeyboardInterrupt
 
     print("2")
-except KeyboardInterrupt:
+except :
     print("4")
 else:
     print("5")
